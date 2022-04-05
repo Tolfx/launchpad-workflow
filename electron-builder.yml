@@ -1,0 +1,12 @@
+appId: com.example.nextron
+productName: Launchpad
+copyright: Copyright © 2022 Tolfx
+directories:
+  output: dist
+  buildResources: resources
+files:
+  - from: .
+    filter:
+      - package.json
+      - app
+publish: null
